@@ -1,7 +1,5 @@
 This is a sample project using docker.
 
-This is a sample project using docker.
-
 Now handling git commands
 git status  - to show your recent files changed
 git branch  - to tell  branch your are currently working on
