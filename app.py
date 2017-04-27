@@ -22,9 +22,9 @@ def hello():
 
 @app.route("/services")
 def services():
-      var = "services"
+      var = "services to be done this morning"
     
-      html = "<h3> {var}!</h3>"
+      html = "<h3>{var}</h3>"
            
       return html.format(name=os.getenv('NAME', "world"), hostname=socket.gethostname(), visits=visits)
 
